@@ -1,0 +1,16 @@
+name = View
+core = 7.x
+package = Features
+dependencies[] = flag_bookmark
+dependencies[] = jcarousel
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = author
+features[views_view][] = block
+features[views_view][] = book_scroller
+features[views_view][] = books
+features[views_view][] = category
+features[views_view][] = publisher
+features[views_view][] = pulisher
+features_exclude[dependencies][ctools] = ctools
